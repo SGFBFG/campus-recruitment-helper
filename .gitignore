@@ -1,0 +1,40 @@
+# 构建产物
+build/
+dist/
+*.spec
+
+# 数据文件
+*.json
+校招任务数据.json
+*.tmp
+
+# 日志
+*.log
+debug.log
+
+# 备份
+startup_backup_*/
+backup/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 图标临时文件
+make_icon.py
